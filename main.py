@@ -2,11 +2,16 @@ import random
 
 
 def minmax(numbers):
-
-
+    # Minimum Value
+    minval = min(numbers)
+    # Maximum Value
+    maxval = max(numbers)
+    
     ########################################
     # Do not delete the return statement
     ########################################
+    
+    # Simply returns the values (Minimum and Maximum)
     return minval, maxval
 
 
