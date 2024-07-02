@@ -1,6 +1,5 @@
 import random
 
-
 def minmax(numbers):
     # Minimum Value
     minval = min(numbers)
